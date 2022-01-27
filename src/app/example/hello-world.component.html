@@ -1,0 +1,7 @@
+<h2>{{ message }}</h2>
+<p [id]="sayHelloId" [style.color]="fontColor">
+  You can set my color in the component!
+</p>
+<button [disabled]="canEdit" (click)="onEditClick()">
+  Trigger alert message
+</button>
